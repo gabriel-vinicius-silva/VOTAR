@@ -2,15 +2,45 @@ body {
     background-color: black;
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 
-#voteBolsonaro,
+/* Add this code to your existing CSS */
+/* Add this code to your existing CSS */
+
+#imgBolsonaro,
+#imgLula,
+#imgSimone {
+  transition: transform 0.5s ease;
+}
+
+#imgBolsonaro:hover,
+#imgLula:hover,
+#imgSimone:hover {
+  transform: scale(1.2);
+}
+
 #voteLula {
     width: 400px;
     height: 400px;
     border-radius: 10px;
     margin-top: 80px;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: 2px solid #e07777;
+    border-radius: 5px;
+    color: #070707;
+    background-color: #cf1e1e;
+    transition: background-color 0.3s, color 0.3s;
 }
+#voteLula:hover{
+    background-color: #000000;
+    color: #ff0000;
+    }
 
 #imgBolsonaro,
 #imgLula {
@@ -19,19 +49,56 @@ body {
 }
 
 #voteBolsonaro {
-    margin-right: 20px; /* Adjust the spacing between the images */
+    width: 400px;
+    height: 400px;
+    border-radius: 10px;
+    margin-top: 80px;
+    margin-right: 0px; /* Remove the right margin */
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: 2px solid #c2db34;
+    border-radius: 5px;
+    color: #3498db;
+    background-color: #33cf1e;
+    transition: background-color 0.3s, color 0.3s;
+}
+#voteBolsonaro:hover{
+background-color: #dbc234;
+color: #ffffff;
 }
 
 #imgSimone{
 
     border-radius: 10%;
-   position: relative;
-    top: 100px;
+    position: relative;
+    top: 0px; /* Remove the top margin */
 }
 #voteSimone {
     width: 400px;
     height: 400px;
     border-radius: 10px;
     margin-top: 120px;
+    margin-right: 0px; /* Remove the right margin */
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: 2px solid #dbbc34;
+    border-radius: 5px;
+    color: #db3434;
+    background-color: #1b1b1b;
+    transition: background-color 0.3s, color 0.3s;
+
+}
+#voteSimone:hover{
+
+    background-color: #ffffff;
+    color: rgb(255, 0, 0);
 
 }
