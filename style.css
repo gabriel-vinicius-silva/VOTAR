@@ -102,3 +102,21 @@ color: #ffffff;
     color: rgb(255, 0, 0);
 
 }
+#saberVotos{
+display: inline-block;
+padding: 10px 20px;
+font-size: 16px;
+text-align: center;
+text-decoration: none;
+cursor: pointer;
+border: 2px solid #4CAF50; /* Cor da borda */
+border-radius: 5px; /* Borda arredondada */
+color: #4CAF50; /* Cor do texto */
+background-color: white; /* Cor de fundo */
+transition: background-color 0.3s, color 0.3s;
+}
+#saberVotos:hover {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
