@@ -1,5 +1,5 @@
 body {
-    background-color: black;
+    background-color: rgb(255, 255, 255);
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -37,10 +37,14 @@ body {
     background-color: #cf1e1e;
     transition: background-color 0.3s, color 0.3s;
 }
-#voteLula:hover{
+#voteLula:hover {
     background-color: #000000;
     color: #ff0000;
-    }
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+    transform: scale(1.1); /* Adicione uma escala de 110% ao passar o mouse */
+}
+
 
 #imgBolsonaro,
 #imgLula {
@@ -67,8 +71,13 @@ body {
     transition: background-color 0.3s, color 0.3s;
 }
 #voteBolsonaro:hover{
-background-color: #dbc234;
-color: #ffffff;
+    background-color: #dbc234;
+    color: #ffffff;
+    background-color: gr;
+    color: #ff0000;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+    transform: scale(1.1); /* Adicione uma escala de 110% ao passar o mouse */
 }
 
 #imgSimone{
@@ -100,23 +109,31 @@ color: #ffffff;
 
     background-color: #ffffff;
     color: rgb(255, 0, 0);
+    transition: transform 0.3s ease-in-out;
+    transform: scale(1.1); /* Adicione uma escala de 110% ao passar o mouse */
+}
 
+
+
+/*saber senha */
+  body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 50px;
 }
-#saberVotos{
-display: inline-block;
-padding: 10px 20px;
-font-size: 16px;
-text-align: center;
-text-decoration: none;
-cursor: pointer;
-border: 2px solid #4CAF50; /* Cor da borda */
-border-radius: 5px; /* Borda arredondada */
-color: #4CAF50; /* Cor do texto */
-background-color: white; /* Cor de fundo */
-transition: background-color 0.3s, color 0.3s;
+
+#senhaInput {
+    padding: 10px;
+    font-size: 16px;
 }
-#saberVotos:hover {
-    background-color: #4CAF50;
-    color: white;
-  }
-  
+
+#acessoBtn {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#mensagem {
+    margin-top: 20px;
+    font-size: 18px;
+}

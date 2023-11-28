@@ -1,0 +1,21 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 50px;
+}
+
+#senhaInput {
+    padding: 10px;
+    font-size: 16px;
+}
+
+#acessoBtn {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#mensagem {
+    margin-top: 20px;
+    font-size: 18px;
+}

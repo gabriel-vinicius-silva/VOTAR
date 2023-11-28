@@ -1,26 +1,3 @@
-var voteBolsonaro = 0;
-var voteLula = 0 ; 
-var voteSimone = 0 ; 
-
-function votarBolsonaro(){
-    voteBolsonaro = voteBolsonaro +1;
-    alert("voce votou em bolsonaro");
-}
-function votarLula(){
-    voteLula = voteLula +1;
-
-    alert("voce votou em Lula");
-}
-function votarSimone(){
-    voteSimone = voteSimone +1;
-    alert("voce votou na candidata : Simone");
-}
-
-function mostraVotos(){
-    alert( "voto bolsonaro : " + voteBolsonaro + "\n"+"votos lula : "+ voteLula+ "\n" + "votos Simone : " + voteSimone);
-}
-//verificar votos
-
 document.getElementById("acessoBtn").addEventListener("click", verificarSenha);
 document.getElementById("mostrarSenhaBtn").addEventListener("click", mostrarSenha);
 
