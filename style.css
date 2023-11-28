@@ -125,15 +125,41 @@ body {
 #senhaInput {
     padding: 10px;
     font-size: 16px;
+    position: absolute;
+    top: 85%;
+    right: 50%;
+    
 }
 
 #acessoBtn {
     padding: 10px 20px;
     font-size: 16px;
     cursor: pointer;
+    position: absolute;
+    top: 85%;
+    right: 50%;
+    
 }
 
 #mensagem {
     margin-top: 20px;
     font-size: 18px;
+    position: absolute;
+    top: 90%;
+    right: 50%;
+    
+}
+#mostrarSenhaBtn {
+
+    position: absolute;
+    top: 90%;
+    right: 50%;
+
+}
+#campoSenha{
+
+    position: absolute;
+    top: 81%;
+    right: 50%;
+
 }
