@@ -30,7 +30,7 @@ function verificarSenha() {
     var mensagemElement = document.getElementById("mensagem");
 
     if (senhaDigitada === senhaCorreta) {
-        mensagemElement.innerHTML = "Acesso permitido!";
+        mensagemElement.innerHTML = "Acesso as senhas permitido!";
         alert (mostraVotos())
         // Adicione aqui a lógica para redirecionar ou permitir o acesso ao conteúdo protegido
     } else {
